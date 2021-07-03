@@ -1,0 +1,27 @@
+:root{
+	/*Color Variables*/
+	--myBrightOrange: hsl(31, 77%, 52%);
+	--myDarkCyan: hsl(184, 100%, 22%);
+	--myVeryDarkCyan: hsl(179, 100%, 13%);
+	--myParagraphTransparentWhite: hsla(0, 0%, 100%, 0.75);
+	--myVeryLightGray: hsl(0, 0%, 95%);
+	--myAttributionLinkColor: hsl(228, 45%, 44%);
+}
+
+
+
+
+
+
+
+
+#attribution{
+  font-size: 11px;
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+}
+
+#attribution a{
+  color: var(--myAttributionLinkColor);
+}
