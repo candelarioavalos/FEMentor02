@@ -8,17 +8,40 @@
 	--myAttributionLinkColor: hsl(228, 45%, 44%);
 }
 
+body{
+	background-color: var(--myVeryLightGray);
+	font-size: 15px;
+}
 
+h1{
+	color: var(--myVeryLightGray);
+	font-family: 'Big Shoulders Display', sans-serif;
+	font-weight: 700;
+}
 
+p{
+	color: var(--myParagraphTransparentWhite);
+	font-family: 'Lexend Deca', sans-serif;
+	font-weight: 400;
+	line-height: 1.6;
+}
 
+#sedan{
+	background-color: var(--myBrightOrange);
+}
 
+#suv{
+	background-color: var(--myDarkCyan);
+}
 
-
+#luxury{
+	background-color: var(--myVeryDarkCyan);
+}
 
 #attribution{
   font-size: 11px;
   text-align: center;
-  color: white;
+  color: black;
   margin-top: 20px;
 }
 

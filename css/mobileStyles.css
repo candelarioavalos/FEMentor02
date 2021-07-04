@@ -1,0 +1,81 @@
+/*Stylesheet for mobile device screens under 1350px of width*/
+
+body{
+  text-align: left;
+  padding: 60px 20px 60px 20px;
+  box-sizing: border-box;
+}
+
+p{
+  padding: 20px 20px 20px 0;
+}
+
+button{
+  background-color: var(--myVeryLightGray);
+  padding: 15px 35px;
+  border: none;
+  border-radius: 50px;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  box-sizing: border-box;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+button:active{
+  color: var(--myVeryLightGray);
+  border: 2px solid var(--myVeryLightGray);
+}
+
+#content{
+  width: 100%;
+  float: center;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+#sedan{
+  border-radius: 10px 10px 0 0;
+  padding: 35px;
+  box-sizing: border-box;
+}
+
+#sedan button{
+  color: var(--myBrightOrange);
+}
+
+#sedan button:active{
+  background-color: var(--myBrightOrange);
+  color: var(--myVeryLightGray);
+}
+
+#suv{
+  padding: 35px;
+  box-sizing: border-box;
+}
+
+#suv button{
+  color: var(--myDarkCyan);
+}
+
+#suv button:active{
+  background-color: var(--myDarkCyan);
+  color: var(--myVeryLightGray);
+}
+
+#luxury{
+  border-radius: 0 0 10px 10px;
+  padding: 35px;
+  box-sizing: border-box;
+}
+
+#luxury button{
+  color: var(--myVeryDarkCyan);
+}
+
+#luxury button:active{
+  background-color: var(--myVeryDarkCyan);
+  color: var(--myVeryLightGray);
+}
