@@ -26,16 +26,62 @@ p{
 	line-height: 1.6;
 }
 
+button{
+  background-color: var(--myVeryLightGray);
+  padding: 15px 35px;
+  border: none;
+  border-radius: 50px;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  box-sizing: border-box;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+button:active{
+  color: var(--myVeryLightGray);
+  border: 2px solid var(--myVeryLightGray);
+}
+
 #sedan{
 	background-color: var(--myBrightOrange);
+}
+
+#sedan button{
+  color: var(--myBrightOrange);
+}
+
+#sedan button:active{
+  background-color: var(--myBrightOrange);
+  color: var(--myVeryLightGray);
 }
 
 #suv{
 	background-color: var(--myDarkCyan);
 }
 
+#suv button{
+  color: var(--myDarkCyan);
+}
+
+#suv button:active{
+  background-color: var(--myDarkCyan);
+  color: var(--myVeryLightGray);
+}
+
 #luxury{
 	background-color: var(--myVeryDarkCyan);
+}
+
+#luxury button{
+  color: var(--myVeryDarkCyan);
+}
+
+#luxury button:active{
+  background-color: var(--myVeryDarkCyan);
+  color: var(--myVeryLightGray);
 }
 
 #attribution{
